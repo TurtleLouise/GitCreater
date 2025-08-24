@@ -43,5 +43,6 @@ def make_gif_from_folder(frame_folder):
 
 if __name__ == "__main__":
     # Replace with your actual folder path
-    folder_path = r"C:\\Users\\louis\\OneDrive\\Pictures"
+    folder_path = r"C:\\Users\\name\\pictures"
     make_gif_from_folder(folder_path)
+
