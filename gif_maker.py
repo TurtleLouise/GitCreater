@@ -30,14 +30,14 @@ def make_gif_from_folder(frame_folder):
     if frames:
         # Save the frames as an animated GIF
         frames[0].save(
-            "my_awesome.gif",
+            "kurtcobain.gif",
             format="GIF",
             append_images=frames[1:],
             save_all=True,
             duration=100,
             loop=0
         )
-        print("GIF created successfully as 'my_awesome.gif'")
+        print("GIF created successfully as 'kurtcobain.gif'")
     else:
         print("No valid images could be opened.")
 
@@ -45,4 +45,5 @@ if __name__ == "__main__":
     # Replace with your actual folder path
     folder_path = r"C:\\Users\\name\\pictures"
     make_gif_from_folder(folder_path)
+
 
