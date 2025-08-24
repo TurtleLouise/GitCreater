@@ -1,4 +1,4 @@
-# GitCreater
+# GifCreater
 Required Packages
 
 Pillow (PIL fork) - image processing and GIF creation
